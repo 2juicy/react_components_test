@@ -1,22 +1,16 @@
 import React, { Component } from 'react';
+import Notes from './components/Notes/Notes'
 import './App.css';
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      count: 0
-    };
-  }
+  
 
-  increment = () => {
-    this.setState({ count: this.state.count + 1 });
-  }
 
   render() {
+    
     return (
       <div>
-        <button onClick={this.increment}>{this.state.count}</button>
+        <Notes />
       </div>
     );
   }

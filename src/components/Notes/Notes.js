@@ -30,7 +30,7 @@ export default class Notes extends Component {
     render() {
         let pinNote = this.state.notes.map((e, i) => {
             return (
-                <li key={i}>{e}<button onClick={this.deleteNote}>x</button></li>
+                <li key={i}>{e}<button onClick={() => this.deleteNote(i)}>x</button></li>
             );
         });
         return (

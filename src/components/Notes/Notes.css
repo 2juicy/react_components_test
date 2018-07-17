@@ -1,3 +1,13 @@
+.notesArea {
+  display: block;
+}
+
 .textArea {
   width: 100%;
+}
+
+.notes{
+  display:flex;
+  position: absolute;
+  bottom: 0;
 }

@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Notes from './components/Notes/Notes'
 import Title from './components/Title/Title'
+import Login from './components/Login/Login'
+import Avatar from './components/Avatar/Avatar'
 import './App.css';
 
 class App extends Component {
@@ -12,7 +14,10 @@ class App extends Component {
     return (
       <div>
         <Title>React Component Test</Title>
-        <Notes />
+        
+        <Avatar />
+        <Login />
+        <Notes />     
       </div>
     );
   }
